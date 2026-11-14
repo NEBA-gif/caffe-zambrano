@@ -1,0 +1,95 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Formulario - Caffé Zambrano</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body class="form-page">
+    <header>
+      <h1>Registro de contacto</h1>
+      <p>Completá el siguiente formulario para comunicarte con nosotros.</p>
+    </header>
+    <main>
+      <h2>¡Conocé Caffé Zambrano!</h2>
+      <form>
+        <div>
+          <label for="nombre">Nombre completo:</label>
+          <input
+            type="text"
+            id="nombre"
+            name="nombre"
+            placeholder="Ingresá tu nombre"
+            required
+          />
+        </div>
+        <div>
+          <label for="email">Correo electrónico:</label>
+          <input
+            type="email"
+            id="email"
+            name="email"
+            placeholder="ejemplo@gmail.com"
+            required
+          />
+        </div>
+        <div>
+          <label for="telefono">Número de teléfono:</label>
+          <input
+            type="tel"
+            id="telefono"
+            name="telefono"
+            placeholder="+54 9..."
+          />
+        </div>
+        <div>
+          <label for="empresa">Nombre de empresa:</label>
+          <input
+            type="text"
+            id="empresa"
+            name="empresa"
+            placeholder="Nombre de tu negocio"
+          />
+        </div>
+        <div>
+          <label for="ciudad">Ciudad:</label>
+          <input
+            type="text"
+            id="ciudad"
+            name="ciudad"
+            placeholder="Tu ciudad"
+          />
+        </div>
+        <div>
+          <label for="interes">Motivo de contacto:</label>
+          <select id="interes" name="interes" required>
+            <option value="">Seleccioná una opción</option>
+            <option value="cliente">Quiero conocer el menú</option>
+            <option value="partner">Quiero ser partner</option>
+            <option value="compras">Compras mayoristas</option>
+            <option value="informacion">Solicitar información</option>
+          </select>
+        </div>
+        <div>
+          <label for="mensaje">Mensaje:</label>
+          <textarea
+            id="mensaje"
+            name="mensaje"
+            rows="5"
+            placeholder="Escribí tu consulta..."
+          >
+          </textarea>
+        </div>
+        <div>
+          <button type="submit">Enviar formulario</button>
+        </div>
+      </form>
+    </main>
+    <footer>
+      <p>Caffé Zambrano - Todos los derechos reservados.</p>
+
+      <a href="index.html">Volver al inicio</a>
+    </footer>
+  </body>
+</html>

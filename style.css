@@ -1,0 +1,210 @@
+
+/* =================================
+   CONFIGURACIÓN GENERAL
+================================= */
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: 0;
+}
+body {
+    background-color: #f5efe5;
+    color: #493126;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+
+/* =================================
+   HEADER / HERO
+================================= */
+
+header {
+    background-color: #493126;
+    color: #fffaf3;
+    font-family: Georgia, serif;
+    
+
+    padding: 40px;
+    margin: 20px;
+}
+/* =================================
+   IMÁGENES DEL HERO
+================================= */
+
+.hero-images {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    padding: 25px;
+    margin: 20px;
+}
+
+.hero-images img {
+    width: 180px;
+    height: 180px;
+}
+.hero-images img {
+    object-fit: cover;
+}
+
+/* =================================
+   NAVEGACIÓN
+================================= */
+
+nav {
+    background-color: #76513d;
+    color: #fffaf3;
+    font-family: Arial, sans-serif;
+    text-align: center;
+
+    padding: 15px;
+    margin: 10px;
+}
+nav a {
+    color: #fffaf3;
+    text-decoration: none;
+    font-family: Arial, sans-serif;
+    margin: 10px;
+
+}
+
+/* =================================
+   BIENVENIDO
+================================= */
+
+.bienvenido1 {
+    background-color: #fffaf3;
+    color: #493126;
+    font-family: Georgia, serif;
+
+    padding: 40px;
+    margin: 25px;
+}
+
+/* =================================
+   NUESTRO MENÚ
+================================= */
+
+.nuestromenu2 {
+    background-color: #e8d8c3;
+    color: #493126;
+    font-family: Arial, sans-serif;
+
+    padding: 40px;
+    margin: 25px;
+}
+
+/* =================================
+   NUESTRO CAFÉ
+================================= */
+
+.nuestrocafe3 {
+    background-color: #d5b99a;
+    color: #493126;
+    font-family: Georgia, serif;
+    text-align: left;
+
+    padding: 40px;
+    margin: 25px;
+}
+
+/* =================================
+   PARTNERS
+================================= */
+
+.partner4 {
+    background-color: #f0e2d0;
+    color: #493126;
+    font-family: Arial, sans-serif;
+    text-align: start;
+
+    padding: 40px;
+    margin: 25px;
+}
+
+/* =================================
+   FOOTER
+================================= */
+
+footer {
+    background-color: #493126;
+    color: #fffaf3;
+    font-family: Georgia, serif;
+
+    padding: 30px;
+    margin: 20px;
+}
+footer a{
+    color: #f0e2d0;
+    text-decoration: none;
+    font-family: Arial, sans-serif;
+    margin: 10px;
+}
+/* =================================
+   FORMULARIO
+================================= */
+
+body.form-page {
+    background-color: #f5efe5;
+    color: #493126;
+    font-family: Arial, sans-serif;
+
+    padding: 0;
+    margin: 0;
+}
+
+body.form-page header {
+    background-color: #493126;
+    color: #fffaf3;
+    font-family: Georgia, serif;
+
+    padding: 30px;
+    margin: 20px;
+}
+
+body.form-page main {
+    background-color: #fffaf3;
+    color: #493126;
+    font-family: Arial, sans-serif;
+
+    padding: 40px;
+    margin: 25px;
+}
+
+body.form-page form {
+    background-color: #e8d8c3;
+    color: #493126;
+    font-family: Arial, sans-serif;
+
+    padding: 25px;
+    margin: 20px;
+}
+
+body.form-page footer {
+    background-color: #493126;
+    color: #fffaf3;
+    font-family: Georgia, serif;
+
+    padding: 30px;
+    margin: 20px;
+}
+
+/* =================================
+   IMÁGENES DEL HERO
+================================= */
+
+.hero-images {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    padding: 25px;
+    margin: 20px;
+}
+
+.hero-images img {
+    width: 180px;
+    height: 180px;
+}
+.hero-images img {
+    object-fit: cover;
+}
